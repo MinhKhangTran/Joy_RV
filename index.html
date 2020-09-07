@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joy Red Velvet</title>
+    <script
+      src="https://kit.fontawesome.com/48d84926e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <section class="nav-bar">
+        <div class="nav-center">
+          <h3 class="joy">joy</h3>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+    <section class="hero">
+      <div class="hero-center">
+        <div class="hero-text">
+          <h1>Joy</h1>
+          <h2 class="transparent">Red Velvet</h2>
+        </div>
+        <div class="hero-img">
+          <img src="./img/joy-landing 1.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+    <section class="description" id="about">
+      <div class="desc-center">
+        <div class="desc-pic">
+          <img src="./img/joy-about.jpg" alt="" />
+        </div>
+        <div class="desc-text">
+          <h1>Joy</h1>
+          <p>Birth Name: Park Soo-young</p>
+          <p>Hangul: 박수영</p>
+          <p>Birth Date: September 3, 1996 (age 24)</p>
+          <p>Birth Place: Jeju Island, South Korea</p>
+          <p>Height: 170cm cm (Official)</p>
+          <p>Weight: 48 kg</p>
+        </div>
+      </div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+    </section>
+    <section class="end">
+
+    
+    <div class="gallery" id="gallery">
+      <img
+        src="./img/joy-1.jpg"
+        alt="Joy-1"
+        title="joy-1"
+        class="img"
+        data-id="1"
+      />
+      <img
+        src="./img/joy-2.jpeg"
+        alt="Joy-2"
+        title="joy-2"
+        class="img"
+        data-id="2"
+      />
+      <img
+        src="./img/joy-3.jpg"
+        alt="Joy-3"
+        title="joy-3"
+        class="img"
+        data-id="3"
+      />
+      <img
+        src="./img/joy-4.jpg"
+        alt="Joy-4"
+        title="joy-4"
+        class="img"
+        data-id="4"
+      />
+      <!-- modal -->
+      <div class="modal">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="modal-content">
+          <!-- prev next buttons -->
+          <button class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          <!-- content -->
+          <img src="./img/joy-1.jpg" class="main-img" alt="" />
+          <h3 class="image-name">image name</h3>
+          <div class="modal-images">
+            <img
+              src="./img/joy-1.jpg"
+              title="joy-1"
+              id="1"
+              class="modal-img"
+              alt=""
+            />
+            <img
+              src="./img/joy-2.jpeg"
+              title="joy-2"
+              id="2"
+              class="modal-img selected"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer>
+        <p><a href="https://www.instagram.com/_imyour_joy/">For more look follow her on instagram <i class="fab fa-instagram"></i></a></p>
+        
+      </footer>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
